@@ -7,6 +7,7 @@
         <meta name="author" content="Onur Surmeli">
         <meta name="description" content="Hello World!">
         <meta name="keywords" content="Hello World, PHP, responsive, dynamic, practice, project">
+        <link rel="stylesheet" href="/styles/style.css">
         <title>Hello World but it's responsive!</title>
     </head>
     <body>
