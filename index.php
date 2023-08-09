@@ -7,7 +7,7 @@
         <meta name="author" content="Onur Surmeli">
         <meta name="description" content="Hello World!">
         <meta name="keywords" content="Hello World, PHP, responsive, dynamic, practice, project">
-        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="styles/style.css">
         <title>Hello World but it's responsive!</title>
     </head>
     <body>
@@ -43,52 +43,62 @@
                     <div class="movie-column-item">
                         <img src="" alt="">
                         <div class="movie-title"></div>
-                        <p></p>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, sit.</p>
                     </div>
                     <div class="movie-column-item">
                         <img src="" alt="">
                         <div class="movie-title"></div>
-                        <p></p>
+                        <p>Amet cumque quasi porro?</p>
+                        <p>Tempora repudiandae asperiores molestias, sint minima vero doloremque expedita nemo.</p>
                     </div>
                     <div class="movie-column-item">
                         <img src="" alt="">
                         <div class="movie-title"></div>
-                        <p></p>
+                        <p>Neque reiciendis ea molestiae.</p>
+                        <p>Tenetur a voluptates dignissimos ex aperiam iusto, unde praesentium sapiente?</p>
                     </div>
                     <div class="movie-column-item">
                         <img src="" alt="">
                         <div class="movie-title"></div>
-                        <p></p>
+                        <p>Dolor delectus nam enim.</p>
+                        <p>Cum velit recusandae in. Deserunt nihil culpa velit. Molestias, recusandae.</p>
                     </div>
                     <div class="movie-column-item">
                         <img src="" alt="">
                         <div class="movie-title"></div>
-                        <p></p>
+                        <p>Deleniti dolor aliquid magni.</p>
+                        <p>Odio ex maiores et amet mollitia, iusto sit esse repellendus.</p>
                     </div>
                     <div class="movie-column-item">
                         <img src="" alt="">
                         <div class="movie-title"></div>
-                        <p></p>
+                        <p>At error minus atque.</p>
+                        <p>Voluptate quidem odio ipsa qui quibusdam illum placeat provident fugiat?</p>
                     </div>
                     <div class="movie-column-item">
                         <img src="" alt="">
                         <div class="movie-title"></div>
-                        <p></p>
+                        <p>Soluta voluptate ducimus debitis.</p>
+                        <p>Quaerat molestiae odit voluptatibus in aut ex modi, amet enim!</p>
                     </div>
                     <div class="movie-column-item">
                         <img src="" alt="">
                         <div class="movie-title"></div>
-                        <p></p>
+                        <p>Nobis officiis vel deserunt.</p>
+                        <p>Vel ad similique quos sapiente laudantium ab maxime velit laboriosam?</p>
                     </div>
                     <div class="movie-column-item">
                         <img src="" alt="">
                         <div class="movie-title"></div>
-                        <p></p>
+                        <p>Adipisci natus atque quia.</p>
+                        <p>Eos debitis eligendi beatae illo adipisci incidunt, sapiente vero odio.</p>
                     </div>
                     <div class="movie-column-item">
                         <img src="" alt="">
                         <div class="movie-title"></div>
-                        <p></p>
+                        <p>Consequatur, sapiente officiis! Iste?</p>
+                        <p>Excepturi porro neque quisquam cum enim magnam doloremque ex quia!</p>
                     </div>
                 </div>
             </section>
