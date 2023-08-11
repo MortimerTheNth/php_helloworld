@@ -54,8 +54,11 @@ main {
   margin: 20px 0;
 }
 main section {
-  height: 30vh;
+  height: 50vh;
+  width: 100%;
+  min-height: 500px;
   padding: 20px;
+  margin: 30px auto;
 }
 main section .row {
   display: flex;
@@ -73,6 +76,7 @@ main section .row > div {
   width: 25%;
   height: 100%;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 main section .row div.movie-title {
   display: inline-flex;
