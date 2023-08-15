@@ -53,19 +53,23 @@ header ul li a:hover {
 main {
   margin: 20px 0;
 }
-main section {
+
+section {
   height: 50vh;
   width: inherit;
   min-height: 800px;
   padding: 20px;
   margin: 10px auto;
 }
-main section .row {
+
+.row {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
 }
-main section .row > div {
+
+.column-item {
   display: inline-flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -82,14 +86,27 @@ main section .row > div {
   background: url("../assets/movie-placeholder-horizontal.jpg");
   background-size: auto;
 }
-main section .row > div p {
+.column-item p {
   display: block;
   line-height: 1;
   padding: 0 3vw;
 }
-main section .row div.movie-title {
+.column-item div.movie-title {
   width: 100%;
   height: 8vh;
   z-index: 1;
   position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1rem;
+  }
+  section {
+    max-height: 200vh;
+  }
+  .column-item {
+    min-height: 100px !important;
+    height: 25vh !important;
+  }
 }/*# sourceMappingURL=style.css.map */
