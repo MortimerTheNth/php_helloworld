@@ -27,12 +27,10 @@
             <section class="featured">
                 <h3>Featured This Week</h3>
                 <div class="featured-item">
-                    <img class="movie-placeholder" src="assets/movie-placeholder-horizontal.jpg" alt="featured movie">
                     <h4>Featured Movie</h4>
                     <p>Movie Title</p>
                 </div>
                 <div class="featured-item">
-                    <img class="movie-placeholder" src="assets/movie-placeholder-horizontal.jpg" alt="featured show">
                     <h4>Featured Show</h4>
                     <p>Show Title</p>
                 </div>

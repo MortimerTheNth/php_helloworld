@@ -69,6 +69,14 @@ section {
   width: 100%;
 }
 
+.featured-item {
+  width: 100%;
+  background: url("../assets/movie-placeholder-horizontal.png");
+  background-size: cover;
+  margin: 20px auto;
+  height: 40vh;
+}
+
 .column-item {
   display: inline-flex;
   flex-direction: column;
@@ -83,8 +91,8 @@ section {
   overflow-y: hidden;
   position: relative;
   margin: 10px 2px;
-  background: url("../assets/movie-placeholder-horizontal.jpg");
-  background-size: auto;
+  background: url("../assets/movie-placeholder-horizontal.png");
+  background-size: cover;
 }
 .column-item p {
   display: block;
@@ -108,5 +116,16 @@ section {
   .column-item {
     min-height: 100px !important;
     height: 25vh !important;
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  section {
+    max-height: 200vh;
+  }
+  .column-item {
+    min-height: 100px !important;
+    height: 20vh !important;
+    width: 32% !important;
   }
 }/*# sourceMappingURL=style.css.map */
