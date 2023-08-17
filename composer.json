@@ -1,0 +1,17 @@
+{
+    "name": "mort/helloworld",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mort\\Helloworld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Onur",
+            "email": "onatsurmeli@gmail.com"
+        }
+    ],
+    "require": {}
+}
