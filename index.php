@@ -23,14 +23,14 @@
         <h1>Bob's Movie and Show Emproium</h1>
         <?php
             echo "Dark Mode: ";
-            echo "<button oncklick='darkMode()'>Toggle Dark Mode</button>";
-            if (isset($_POST['dark-mode-toggle'])) {
-                echo '<script>
+            echo '<script>
                     function darkMode() {
                         var element = document.body;
                         element.classList.toggle("dark-mode");
-                    }';
-            }
+                    }
+                </script>';
+            echo "<button onclick='darkMode()'>Toggle Dark Mode</button>";
+        
         ?>
         <img class="hero-img" src="" alt="hero image">
         <h2><i>Best movies and shows, by someone not named Bob.</i></h2>
