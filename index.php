@@ -13,14 +13,14 @@
     <body>
         <header>
             <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Movies">Movies</a></li>
-                <li><a href="#Shows">TV Shows</a></li>
-                <li><a href="#Top100">Top 100</a></li>
-                <li><a href="#About">About</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#shows">TV Shows</a></li>
+                <li><a href="#top100">Top 100</a></li>
+                <li><a href="#about">About</a></li>
             </ul>
         </header>
-        <h1>Bob's Movie and Show Emproium</h1>
+        <h1 id="home">Bob's Movie and Show Emproium</h1>
         <?php
             echo "Dark Mode: ";
             echo '<script>
