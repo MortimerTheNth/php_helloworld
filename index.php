@@ -48,7 +48,7 @@
             </section>
             <section class="titles-container">
                 <h3>Movies</h3>
-                <div class="row">
+                <div id="Movies" class="row">
                     <div class="column-item">
                         <div class="movie-title"></div>
                         <p>Lorem ipsum dolor sit.</p>
