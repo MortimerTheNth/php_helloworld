@@ -1,4 +1,22 @@
-let list = [];
+import { readdirSync, readFileSync } from 'fs';
+
+function getTitles(){
+    let titleList = [];
+    const files = readdirSync('C:\\Users\\Surface\\Downloads\\IMDb-API_sample_data\\IMDb-API sample data\\Movie');
+    let i = 0;
+    files.forEach(file => {
+        let boyo = JSON.parse(readFileSync('C:\\Users\\Surface\\Downloads\\IMDb-API_sample_data\\IMDb-API sample data\\Movie\\' + file + '\\Title ' + file + '.json', 'utf8'));
+        titleList.push(boyo);
+        i++;
+        if (i == 10) {
+            console.log(titleList);
+            return;
+        }
+    })
+}
+
+
+let list = getTitles();
 function AddContent(list, container) {
     for(let i = 0; i < 9; i++){
         let mainCont = document.getElementById(container);
@@ -24,6 +42,4 @@ function AddContent(list, container) {
         newTitle.appendChild(subtitle);
     }
 }
-function GetList(){
-
-}
+AddContent(list, "movies")

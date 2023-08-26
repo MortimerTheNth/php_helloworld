@@ -9,6 +9,7 @@
         <meta name="keywords" content="Hello World, PHP, responsive, dynamic, practice, project">
         <link rel="stylesheet" href="styles/style.css">
         <title>Hello World but it's responsive!</title>
+        <script src="./index.js"></script>
     </head>
     <body>
         <header>
@@ -22,6 +23,7 @@
         </header>
         <h1 id="home">Bob's Movie and Show Emproium</h1>
         <?php
+            
             echo "Dark Mode: ";
             echo '<script>
                     function darkMode() {
