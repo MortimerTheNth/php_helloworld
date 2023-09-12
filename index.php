@@ -61,6 +61,6 @@
         <footer>
             <p>&copy; 2019 Bob's Movie and Show Emporium</p>
         </footer>
-        <script src="./index.js"></script>
+        <script src="./src/index.js"></script>
     </body>
 </html>

@@ -1,12 +1,12 @@
-import { readdirSync, readFileSync } from 'fs';
+const fs = require('fs/promises');
 
 function getTitles(){
     let titleList = [];
     const base = 'C:\\Users\\Surface\\Downloads\\IMDb-API_sample_data\\IMDb-API sample data\\Movie';
-    const files = readdirSync(base);
+    const files = fs.readdirSync(base);
     let i = 0;
     files.forEach(file => {
-        let boyo = JSON.parse(readFileSync(base + file + '\\Title ' + file + '.json', 'utf8'));
+        let boyo = JSON.parse(fs.readFileSync(base + file + '\\Title ' + file + '.json', 'utf8'));
         titleList.push(boyo);
         i++;
         if (i == 10) {
@@ -43,4 +43,7 @@ function AddContent(container) {
         mainCont.appendChild(newDiv);
     }
 }
-AddContent(list, "movies")
+let movies = document.createElement("div");
+movies.id = "movies";
+document.body.appendChild(movies);
+AddContent("movies")
