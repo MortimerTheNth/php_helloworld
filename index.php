@@ -9,7 +9,6 @@
         <meta name="keywords" content="Hello World, PHP, responsive, dynamic, practice, project">
         <link rel="stylesheet" href="styles/style.css">
         <title>Hello World but it's responsive!</title>
-        <script src="./index.js"></script>
     </head>
     <body>
         <header>
@@ -62,5 +61,6 @@
         <footer>
             <p>&copy; 2019 Bob's Movie and Show Emporium</p>
         </footer>
+        <script src="./index.js"></script>
     </body>
 </html>

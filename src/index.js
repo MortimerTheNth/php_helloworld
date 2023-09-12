@@ -35,12 +35,12 @@ function AddContent(container) {
         let subtitle = document.createElement("h4");
         subtitle.className = `${container}-subtitle`;
         mainCont.style.background = `url(${list.image})`;
-        mainCont.appendChild(newDiv);
         newDiv.appendChild(newTitle);
         newDiv.appendChild(desc);
         newDiv.appendChild(desc2);
         newTitle.appendChild(title);
         newTitle.appendChild(subtitle);
+        mainCont.appendChild(newDiv);
     }
 }
 AddContent(list, "movies")
