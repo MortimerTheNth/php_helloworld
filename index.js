@@ -2,10 +2,11 @@ import { readdirSync, readFileSync } from 'fs';
 
 function getTitles(){
     let titleList = [];
-    const files = readdirSync('C:\\Users\\Surface\\Downloads\\IMDb-API_sample_data\\IMDb-API sample data\\Movie');
+    const base = 'C:\\Users\\Surface\\Downloads\\IMDb-API_sample_data\\IMDb-API sample data\\Movie';
+    const files = readdirSync(base);
     let i = 0;
     files.forEach(file => {
-        let boyo = JSON.parse(readFileSync('C:\\Users\\Surface\\Downloads\\IMDb-API_sample_data\\IMDb-API sample data\\Movie\\' + file + '\\Title ' + file + '.json', 'utf8'));
+        let boyo = JSON.parse(readFileSync(base + file + '\\Title ' + file + '.json', 'utf8'));
         titleList.push(boyo);
         i++;
         if (i == 10) {
@@ -16,8 +17,8 @@ function getTitles(){
 }
 
 
-let list = getTitles();
-function AddContent(list, container) {
+function AddContent(container) {
+    let list = getTitles();
     for(let i = 0; i < 9; i++){
         let mainCont = document.getElementById(container);
         let newDiv = document.createElement("div");
