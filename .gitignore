@@ -1,2 +1,3 @@
 workspace/*
 /vendor/
+node_modules/
